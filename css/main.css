@@ -398,7 +398,6 @@ i{
 .item-title{
 	margin: 20px;
 }
-
 /* Testimonials */
 .testimonials-inner{
 	background: 	rgba(0, 0, 0, 0.8);
@@ -411,16 +410,15 @@ i{
 	float: left;
 	margin: 20px;
 	border-radius: 50%;
-  border: 5px solid #f6f5f0;
-  height: 150px;
-  width: 150px;
-  box-shadow: 0px 0px 3px 3px #e7e4dc;
-  overflow: hidden;  
+  	border: 5px solid #f6f5f0;
+  	height: 150px;
+  	width: 150px;
+  	box-shadow: 0px 0px 3px 3px #e7e4dc;
+  	overflow: hidden;  
 }
 .testimonial-foto img{
-  width: 100%;	
+  	width: 100%;	
 }
-
 .testimonial-text{
 	float:  right;
   	width: 75%;
@@ -437,39 +435,39 @@ i{
 }
 /* Tour */
 .single-table{
-  width: 30%;
-  height: 20em;
-  position: relative;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  -o-flex-direction: column;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1%;
-   border: 1px solid #fff;
-   border-radius: 10px;
+  	width: 30%;
+  	height: 20em;
+  	position: relative;
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  	justify-content: center;
+  	margin: 1%;
+   	border: 1px solid #fff;
+   	border-radius: 10px;
 }
 .table-heading{
-  border-bottom: 1px solid #fff;
-  text-align: center;
-  padding-bottom: 25px;
+  	border-bottom: 1px solid #fff;
+  	text-align: center;
+  	padding-bottom: 25px;
 
 }
 .tour-price{
-  border-bottom: 1px solid #fff;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  	border-bottom: 1px solid #fff;
+ 	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	justify-content: center;
+  	padding: 20px;
 }
 .table-description{
 	padding: 20px;
@@ -478,8 +476,8 @@ i{
 #footer {
     background-color: #005B7B;
     color: #fff;
-	padding: 6em 0 4em 0;
-	height: 100vh;   
+	height: 100vh;
+	padding-top: 2.5em;   
 }
 #footer input, #footer select, #footer textarea {
 	color: #ffffff;
@@ -487,8 +485,7 @@ i{
 #footer a {
 	color: #ffffff;
 }
-
- #footer h2 {
+#footer h2 {
 	color: #ffffff;
 }
 #footer input[type="submit"],
@@ -503,7 +500,7 @@ i{
 #footer input[type="button"]:hover,
 #footer button:hover,
 #footer .button:hover {
-	background-color: #000;
+	background-color: #5a5a5a;
 }
 #footer input[type="submit"]:active,
 #footer input[type="reset"]:active,
@@ -554,7 +551,6 @@ i{
 #footer .select-wrapper:before {
 	color: rgba(255, 255, 255, 0.25);
 }
-
 #footer ::-webkit-input-placeholder {
 	color: #000 !important;
 	opacity: 0.5;
@@ -630,7 +626,6 @@ i{
 	background: none;
 	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
 }
-
 /* Form */
 form {
 	margin: 0 0 2em 0;
@@ -680,9 +675,8 @@ ul.icons li {
 }
 .submit-button {
     display: block;
-    text-align: center;
-    width: 50%;
-    margin: 5%;
+    width: 20%;
+    margin-left: 40%;
     padding: 0.75em;
     background: blue;
     background-color: #005B7B;
@@ -691,12 +685,6 @@ ul.icons li {
     color: #fff;
     font-size: 1.2em;
 }
-.submit-button:hover,
-.submit-button:active{
-	background-color: #5a5a5a;
-}
-
-
 .icon > .label {
     display: none;
 }
