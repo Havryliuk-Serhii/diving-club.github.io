@@ -1,6 +1,6 @@
 (function($) {
 	$(function() {
-
+		
 		var	$window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
@@ -99,6 +99,15 @@
 					resetForms: true,
 					side: 'right'
 				});
-	});
 
+			$(".owl-carousel").owlCarousel({
+ 				items:1,
+ 				loop:true,
+ 				smartSpeed:1000, 
+ 				margin:25,
+ 				autoplay:true,
+});
+
+	});
+	
 })(jQuery);
